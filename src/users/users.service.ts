@@ -32,8 +32,6 @@ export class UsersService {
       username: user.username,
       password: user.password,
     });
-
-    console.log('fsfdsfdsfs', res);
     return res.token;
   }
 }
